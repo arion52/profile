@@ -28,7 +28,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-color: crimson;
+    background-image: url("");
     min-height: 70%;
 }
 
