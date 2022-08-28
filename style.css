@@ -16,13 +16,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-color: aquamarine;
+    background-image: url("https://i.imgur.com/sOefH6Q.png");
     min-height: 70%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-color: blueviolet;
+    background-image: url("https://i.imgur.com/ovMo2ea.png");
     min-height: 70%;
 }
 
@@ -41,4 +41,22 @@ body, html {
         background-attachment: scroll;
         min-height: 400px;
     }
+}
+
+a:link {
+    color: #58a6ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #58a6ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #58a6ff;
+    background-color: transparent;
+    text-decoration:dotted;
 }
