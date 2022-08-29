@@ -31,7 +31,10 @@ body, html {
     background-image: url("https://i.imgur.com/g4wRbLC.png");
     min-height: 70%;
 }
-
+.bgimg-4{
+    background-image: url("https://i.imgur.com/MAXNtav.jpg");
+    min-height: 70%;
+}
 .u-wide {letter-spacing: 10px;}
 .u-hover-opacity {cursor: pointer;}
 
