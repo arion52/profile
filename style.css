@@ -1,4 +1,8 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Oswald&display=swap');
+
+body {font-family: 'IBM Plex Sans Arabic', sans-serif;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Oswald', sans-serif;}
 
 body, html {
     height: 100%;
@@ -37,6 +41,7 @@ body, html {
     background-image: url("https://i.imgur.com/MAXNtav.jpg");
     min-height: 70%;
 }
+
 .u-wide {letter-spacing: 10px;}
 .u-hover-opacity {cursor: pointer;}
 

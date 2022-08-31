@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <!-- Container (Portfolio Section) -->\
+        <!-- Container (Portfolio Section) -->
         <div class="w3-content w3-container w3-padding-64" id="portfolio">
             <h3 class="w3-center">MY WORKS</h3>
             <p class="w3-center"><em>Here are some of my latest work.</em></p>
@@ -212,6 +212,38 @@
             document.execCommand("copy");
             $temp.remove();
         }
+
+        const one = document.getElementById("about")
+        const two = document.getElementById("portfolio")
+        const three = document.getElementById("contact");
+
+        const oneBtn = document.getElementById("toggleFirst");
+        const twoBtn = document.getElementById("toggleScd");
+        const threeBtn = document.getElementById("toggleThird");
+
+        threeBtn.onclick = function () {
+            if (three.style.display !== "none") {
+            three.style.display = "none";
+            } else {
+            three.style.display = "block";
+            }
+        };
+
+        oneBtn.onclick = function () {
+            if (three.style.display !== "none") {
+            one.style.display = "none";
+            } else {
+            one.style.display = "block";
+            }
+        };
+
+        twoBtn.onclick = function () {
+            if (three.style.display !== "none") {
+            two.style.display = "none";
+            } else {
+            two.style.display = "block";
+            }
+        };
         </script>
 
     </body>
