@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Oswald&display=swap');
-
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
  }
 
-h1,h2,h3,h4,h5{font-family: 'Oswald', sans-serif;}
 
 body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
+}
+
+.home{
+    font-size: 1cm;
+    border-radius: 12px;
+    border: none;
+    padding:10px;
+    align-items: baseline;
+}
+
+.content{
+    padding: 100px;
+    align-items: center;
 }
 
 .nav {
