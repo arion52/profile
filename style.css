@@ -87,19 +87,19 @@ body, html {
 }
 
 a:link {
-    color: #58a6ff;
+    color: #007fff;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #58a6ff;
+    color: #007fff;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:visited{
-    color: #58a6ff;
+    color: #007fff;
     background-color: transparent;
     text-decoration:dotted;
 }
