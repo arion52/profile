@@ -15,87 +15,94 @@
     <body>
 
         <!-- Navbar (sit on top) -->
-        <div class="w3-top" style="background-color: white;">
-        <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#home" class="w3-bar-item w3-button">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="float: right;" id="abtBtn"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small" style="float: right;" id="pflBtn"><i class="fa fa-th"></i> PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="float: right;" id="conBtn"><i class="fa fa-envelope"></i> CONTACT</a>
-            
-        </div>
+        <div class="w3-top">
+            <div class="nav">
+                <a href="#home" class="btn" id="homBtn" >Home</a>
+                <a href="#about" class="btn" id="abtBtn">About</a>
+                <a href="#portfolio" class="btn" id="pflBtn">Portfolio</a>
+                <a href="#contact" class="btn" id="conBtn">Contact</a>
+            </div>>
 
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-        </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            </div>
         </div>
 
         <!-- First Parallax Image with Logo Text -->
-        <div class="bgimg-1 w3-display-container w3-opacity-min" id="aboutA" style="display: block;">
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="homeA" style="display: block;">
             <div class="w3-display-middle" style="white-space:nowrap;">
                 <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY PROFILE</span>
             </div>
         </div>
 
         <!-- Container (About Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="aboutB" style="display: block;">
-            <h3 class="w3-center">ABOUT ME</h3>
+        <div class="w3-content w3-container w3-padding-64" id="homeB" style="display: block;">
             <div class="w3-row">
                 <div class="w3-col m6 w3-center w3-padding-large">
                     <p><b><i class="fa fa-user w3-margin-right"></i>Bargav Krishna K H</b></p><br>
-                    <img src="pfp.jpg" class="pfp-1 w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" style="opacity: 100;">
+                    <img src="pfp.jpg" class="pfp-1 w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" style="opacity: 100; border-radius: 50%;">
                 </div>
-
-                <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <ul>
-                        <li>I'm a Front-end and a Mobile developer.</li>
-                        <li>CO-Owner of <a href="https://geekalgo.com/">Geekalgo</a></li>
-                        <li>Also an AI developer</li>
-                    </ul>
-                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                    <h4>TOOLS AND LANGUAGES I KNOW:</h4>
-                        <img src="https://i.imgur.com/NQCYlaq.png" alt="Android Studio" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/tEdGQWG.png" alt="C" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/Jkjadx2.png" alt="Fedora" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/vCjqJOD.png" alt="Flutter" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/J9uk2Im.png" alt="MySql" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/Z02qJUp.png" alt="Linux" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/0zCAju3.png" alt="Numpy" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/wdXN7CZ.png" alt="Python" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/9cT9TTs.png" alt="Sqlite" width="30" height="30" style="margin:auto 4px;">
-                        <img src="https://i.imgur.com/wlPY7Yt.png" alt="Tensorflow" width="30" height="30" style="margin:auto 4px;">
-                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                    <h4>HOBBIES</h4>
-                    <ul>
-                        <li>Reading</li>
-                        <li>Singing and Piano</li>
-                        <li>Chess</li>
-                        <li>Hockey</li>  
-                    </ul>
-                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                    <h4>INTRESTS</h4>
-                    <ul>
-                        <li>AI, NFTs and blockchain</li>
-                    </ul>
-                </div>
+                <h6 style="display: flex;align-items: center;justify-content: center;">I am a front-end web developer and a  ml developer. Also a mobile developer with 3 years of experience.</h6>
+                <button class="home">About Me</button>
+                <button class="home">Portfolio</button>
+                <button class="home">Contact</button>
+            </div>
         </div>
 
-        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-        <p class="w3-wide"><i class="fa fa-mobile"></i>Mobile Development</p>
-        <div class="w3-light-grey">
-            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div class="bgimg-4 w3-display-container w3-opacity-min" id="aboutA" style="display: none;">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-tAboutAext-white w3-wide" style="color: white;">ABOUT ME</span>
+            </div>
         </div>
-        <p class="w3-wide"><i class="fa fa-laptop"></i>Front-end web Development</p>
-        <div class="w3-light-grey">
-            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+
+        <div class="w3-content w3-container w3-padding-64" id="aboutB" style="display: none;">
+                <ul>
+                    <li>I'm a Front-end and a Mobile developer.</li>
+                    <li>CO-Owner of <a href="https://geekalgo.com/">Geekalgo</a></li>
+                    <li>Also an AI developer</li>
+                </ul>
+                <hr>
+                <h4>TOOLS AND LANGUAGES I KNOW:</h4>
+                    <img src="https://i.imgur.com/NQCYlaq.png" alt="Android Studio" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/tEdGQWG.png" alt="C" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/Jkjadx2.png" alt="Fedora" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/vCjqJOD.png" alt="Flutter" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/J9uk2Im.png" alt="MySql" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/Z02qJUp.png" alt="Linux" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/0zCAju3.png" alt="Numpy" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/wdXN7CZ.png" alt="Python" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/9cT9TTs.png" alt="Sqlite" width="30" height="30" style="margin:auto 4px;">
+                    <img src="https://i.imgur.com/wlPY7Yt.png" alt="Tensorflow" width="30" height="30" style="margin:auto 4px;">
+                <hr>
+                <h4>HOBBIES</h4>
+                <ul>
+                    <li>Reading</li>
+                    <li>Singing and Piano</li>
+                    <li>Chess</li>
+                    <li>Hockey</li>  
+                </ul>
+                <hr>
+                <h4>INTRESTS</h4>
+                <ul>
+                    <li>AI, NFTs and blockchain</li>
+                </ul>
+        
+            <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+            <p class="w3-wide"><i class="fa fa-mobile"></i>Mobile Development</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-laptop"></i>Front-end web Development</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+            </div>
+                <br><br><br><br>
         </div>
-        </div>
+           
+            
 
         <!-- Second Parallax Image with Portfolio Text -->
         <div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolioA" style="display: none;">
@@ -128,20 +135,20 @@
         </div>
 
         <!-- Container (Contact Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="contactB">
-        <div class="w3-row w3-padding-32 w3-section">
-            <div class="w3-col m8 w3-panel">
-                <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="https://goo.gl/maps/rZxS2uYE4BaYGRy18" target="_blank">India</a><br>
-                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 77087 34321<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: <a href="mailto:bargavkrishna26@gmail.com" target="_blank">bargavkrishna26@gmail.com</a><br>
+        <div class="w3-content w3-container w3-padding-64" id="contactB" style="display: none;">
+            <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m8 w3-panel">
+                    <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="https://goo.gl/maps/rZxS2uYE4BaYGRy18" target="_blank">India</a><br>
+                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 77087 34321<br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: <a href="mailto:bargavkrishna26@gmail.com" target="_blank">bargavkrishna26@gmail.com</a><br>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
 
         <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <h3 style="font-family: 'IBM Plex Sans Arabic', sans-serif;">Socials</h3>
             <div class="w3-xlarge w3-section"> 
                 <a href="https://www.linkedin.com/in/bargav-krishna-260b16236/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-linkedin" viewBox="0 0 20 20">
@@ -167,82 +174,101 @@
               
 
         <script>
-        // Modal Image Gallery
-        function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-        }
-
-        // Change style of navbar on scroll
-        window.onscroll = function() {myFunction()};
-        function myFunction() {
-            var navbar = document.getElementById("myNavbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            // Modal Image Gallery
+            function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
             }
-        }
 
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
+            // Change style of navbar on scroll
+            window.onscroll = function() {myFunction()};
+            function myFunction() {
+                var navbar = document.getElementById("myNavbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                }
             }
-        }
 
-        //Copying to clipbpard
-        function copyToClipboard(element) {
-            var $temp = $("<input>");
-            $("body").append($temp);
-            $temp.val($(element).text()).select();
-            document.execCommand("copy");
-            $temp.remove();
-        }
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function toggleFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
 
-        const abt1 = document.getElementById("aboutA");
-        const abt2 = document.getElementById("aboutB");
-        const pfo1 = document.getElementById("portfolioA");
-        const pfo2 = document.getElementById("portfolioB");
-        const con1 = document.getElementById("contactA");
-        const con2 = document.getElementById("contactB");
+            //Copying to clipbpard
+            function copyToClipboard(element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+            }
 
-        const oneBtn = document.getElementById("abtBtn");
-        const twoBtn = document.getElementById("pflBtn");
-        const threeBtn = document.getElementById("conBtn");
+            const hom1 = document.getElementById("homeA");
+            const hom2 = document.getElementById("homeB");
+            const abt1 = document.getElementById("aboutA");
+            const abt2 = document.getElementById("aboutB");
+            const pfo1 = document.getElementById("portfolioA");
+            const pfo2 = document.getElementById("portfolioB");
+            const con1 = document.getElementById("contactA");
+            const con2 = document.getElementById("contactB");
 
-        threeBtn.onclick = function () {
-            con1.style.display = "block";
-            con2.style.display = "block";
-            pfo1.style.display = "none";
-            pfo2.style.display = "none";
-            abt1.style.display="none";
-            abt2.style.display = "none";
-            
-        };
+            const oneBtn = document.getElementById("abtBtn");
+            const twoBtn = document.getElementById("pflBtn");
+            const threeBtn = document.getElementById("conBtn");
+            const fourBtn = document.getElementById("homBtn");
 
-        oneBtn.onclick = function () {
-            con1.style.display = "none";
-            con2.style.display = "none";
-            pfo1.style.display = "none";
-            pfo2.style.display = "none";
-            abt1.style.display="block";
-            abt2.style.display = "block";
-        };
+            threeBtn.onclick = function () {
+                con1.style.display = "block";
+                con2.style.display = "block";
+                pfo1.style.display = "none";
+                pfo2.style.display = "none";
+                hom1.style.display = "none";
+                hom2.style.display = "none";
+                abt1.style.display = "none";
+                abt2.style.display = "none";            
+            };
 
-        twoBtn.onclick = function () {
-            con1.style.display = "none";
-            con2.style.display = "none";
-            pfo1.style.display = "block";
-            pfo2.style.display = "block";
-            abt1.style.display="none";
-            abt2.style.display = "none";
-        };
+            oneBtn.onclick = function () {
+                abt1.style.display = "block";
+                abt2.style.display = "block";
+                con1.style.display = "none";
+                con2.style.display = "none";
+                pfo1.style.display = "none";
+                pfo2.style.display = "none";
+                hom1.style.display = "none";
+                hom2.style.display = "none";
+            };
+
+            twoBtn.onclick = function () {
+                pfo1.style.display = "block";
+                pfo2.style.display = "block";
+                con1.style.display = "none";
+                con2.style.display = "none";
+                hom1.style.display = "none";
+                hom2.style.display = "none";
+                abt1.style.display = "none";
+                abt2.style.display = "none";
+            };
+
+            fourBtn.onclick = function () {
+                hom1.style.display = "block";
+                hom2.style.display = "block";
+                pfo1.style.display = "none";
+                pfo2.style.display = "none";
+                con1.style.display = "none";
+                con2.style.display = "none";
+                abt1.style.display = "none";
+                abt2.style.display = "none";
+            }
         </script>
 
     </body>
