@@ -13,12 +13,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -145,8 +140,8 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
+/*
+ Desktop Navigation 
 */
 .nav-menu {
   padding: 0;
@@ -164,8 +159,7 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu a,
-.nav-menu a:focus {
+.nav-menu a,.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #45505b;
@@ -194,8 +188,7 @@ h6 {
 
 @media (min-width: 992px) {
 
-  .nav-menu a,
-  .nav-menu a:focus {
+  .nav-menu a,.nav-menu a:focus {
     width: 56px;
   }
 
@@ -206,18 +199,12 @@ h6 {
   }
 }
 
-.nav-menu a:hover,
-.nav-menu .active,
-.nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu a:hover,.nav-menu .active,.nav-menu .active:focus,.nav-menu li:hover>a {
   color: #fff;
   background: #0563bb;
 }
 
-.nav-menu a:hover span,
-.nav-menu .active span,
-.nav-menu .active:focus span,
-.nav-menu li:hover>a span {
+.nav-menu a:hover span,.nav-menu .active span,.nav-menu .active:focus span,.nav-menu li:hover>a span {
   color: #fff;
 }
 
@@ -227,8 +214,7 @@ h6 {
   color: #fff;
 }
 
-.nav-menu a:hover span,
-.nav-menu li:hover>a span {
+.nav-menu a:hover span,.nav-menu li:hover>a span {
   display: block;
 }
 
